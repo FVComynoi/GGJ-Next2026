@@ -5,34 +5,45 @@ public class Farol : MonoBehaviour
 {
     [SerializeField] private float elapsedTime =0;
     [SerializeField] private float swapDelay = 5;
-    [SerializeField] private bool isRed= true;
-    [SerializeField] private Material farolMaterial;
+    [SerializeField] private bool isRed = true;
+    [SerializeField] private Material[] farolMaterial;
 
 
     private void Awake()
     {
-        farolMaterial = GetComponent<MeshRenderer>().material;
+        
     }
 
     void Start()
     {
-        isRed = true;
+        isRed = false;
+        farolMaterial[0].color = Color.green;
+        farolMaterial[1].color = Color.gray;
+        farolMaterial[2].color = Color.gray;
     }
     
     void Update()
     {
+        if (elapsedTime >= swapDelay - 1f && !isRed)
+        {
+            farolMaterial[0].color = Color.gray;
+            farolMaterial[1].color = Color.yellow;
+        }
         if (elapsedTime >= swapDelay)
         {
             elapsedTime = 0;
             if (isRed)
             {
                 isRed = false;
-                farolMaterial.color = Color.green;
+                farolMaterial[2].color = Color.gray;
+                farolMaterial[0].color = Color.green;
             }
             else if (!isRed)
             {
                 isRed = true;
-                farolMaterial.color = Color.red;
+                farolMaterial[0].color = Color.gray;
+                farolMaterial[1].color = Color.gray;
+                farolMaterial[2].color = Color.red;
             }
         }
         elapsedTime += Time.deltaTime;
@@ -40,7 +51,13 @@ public class Farol : MonoBehaviour
     
     private void OnTriggerEnter(Collider other)
     {
-        if(other.gameObject.CompareTag("Player"))
-            Debug.Log("Passou pelo farol");
+        if (other.gameObject.CompareTag("Player"))
+        {
+            if (isRed)
+                Debug.Log("Passou o farol vermelho, VSFD");
+            else if (!isRed)
+                Debug.Log("Farol Verde");
+                
+        }
     }
 }
