@@ -5,8 +5,7 @@ public class GameManager : MonoBehaviour
 {
     [SerializeField] TextMeshProUGUI CounterText;
     [SerializeField] public float batteryCounter = 100f;
-    [SerializeField] private GameObject shortcut;
-    private bool hasBattery;
+    private bool hasBattery = true;
     void Start()
     {
         batteryCounter = 100f;
@@ -19,21 +18,9 @@ public class GameManager : MonoBehaviour
         {
             batteryCounter = 0f;
             hasBattery = false;
-            shortcut.SetActive(true);
         }
-
-        while (batteryCounter >= 100f)
-        {
-            if ( batteryCounter==100f && Input.GetKey(KeyCode.Q)) 
-            {
-                hasBattery = true;
-            }
-            //if (hasBattery = true)
-            //{
-                //shortcut.SetActive(false);
-            //}
-        }
-            
+        if (batteryCounter >= 100f)
+            batteryCounter = 100f;
     }
     [ContextMenu("DecreaseBattery")]
     public void DecreaseBattery(float amount)
