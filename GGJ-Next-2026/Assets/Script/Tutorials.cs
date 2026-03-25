@@ -19,7 +19,7 @@ private void OnTriggerEnter(Collider collider)
         if (collider.CompareTag("SirenTutorial"))
         {
             SirenTutorial.SetActive(true);
-            Destroy(SirenTutorial,3.5f);
+            Destroy(SirenTutorial,4.5f);
         }
 
         if (collider.CompareTag("TrafficTutorial"))
