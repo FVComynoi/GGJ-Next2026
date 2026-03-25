@@ -6,21 +6,22 @@
   <component name="ChangeListManager">
     <list default="true" id="7577b498-9423-4b05-b7a1-4c8b4cdaac69" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GGJ-Next-2026/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GGJ-Next-2026/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/LuzLaranja.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/LuzLaranja.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/LuzVerde.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/LuzVerde.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/LuzVermelha.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/LuzVermelha.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Siren.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Siren.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Temp.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Temp.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Textures.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Textures/BatteryBar.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Textures/BatteryBar.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Textures/BatteryBar2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Textures/BatteryBar2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/Farol.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Farol.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/Siren.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Siren.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials2/LuzVerde.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials2/LuzVerde.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials2/LuzVermelha.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials2/LuzVermelha.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Atalho.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Atalho.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Carro/CICADA player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Carro/CICADA player.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Farol.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Farol.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Obstacles/Mats/Material.001.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Obstacles/Mats/Material.001.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Obstacles/Mats/Material.002.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Obstacles/Mats/Material.002.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Obstacles/Mats/Material.005.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Obstacles/Mats/Material.005.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Obstacles/Mats/Material.006.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Obstacles/Mats/Material.006.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Obstacles/Mats/Material.007.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Obstacles/Mats/Material.007.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Obstacles/Mats/Material.008.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Obstacles/Mats/Material.008.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Obstacles/Mats/Material.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Obstacles/Mats/Material.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Obstacles/Mats/Poste.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Obstacles/Mats/Poste.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Siren.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Siren.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +105,7 @@
       <updated>1774376605674</updated>
       <workItem from="1774376607608" duration="1926000" />
       <workItem from="1774457212099" duration="2000" />
-      <workItem from="1774457224628" duration="9427000" />
+      <workItem from="1774457224628" duration="10395000" />
     </task>
     <servers />
   </component>
