@@ -3,31 +3,35 @@ using UnityEngine;
 
 public class Farol : MonoBehaviour
 {
+    [Header("Headlight")]
     [SerializeField] private float elapsedTime =0;
     [SerializeField] private float swapDelay = 5;
     [SerializeField] private bool isRed = true;
+    
+    [Header("References")]
+    [SerializeField] private GameManager gameManager;
     [SerializeField] private Material[] farolMaterial;
 
 
     private void Awake()
     {
-        
+        gameManager = GameObject.Find("GameManager").GetComponent<GameManager>();
     }
 
     void Start()
     {
         isRed = false;
-        farolMaterial[0].color = Color.green;
-        farolMaterial[1].color = Color.gray;
-        farolMaterial[2].color = Color.gray;
+        farolMaterial[0].SetColor("_EmissionColor", Color.green);
+        farolMaterial[1].SetColor("_EmissionColor", Color.black);
+        farolMaterial[2].SetColor("_EmissionColor", Color.black);
     }
     
     void Update()
     {
         if (elapsedTime >= swapDelay - 1f && !isRed)
         {
-            farolMaterial[0].color = Color.gray;
-            farolMaterial[1].color = Color.yellow;
+            farolMaterial[0].SetColor("_EmissionColor", Color.black);
+            farolMaterial[1].SetColor("_EmissionColor", Color.yellow);
         }
         if (elapsedTime >= swapDelay)
         {
@@ -35,15 +39,15 @@ public class Farol : MonoBehaviour
             if (isRed)
             {
                 isRed = false;
-                farolMaterial[2].color = Color.gray;
-                farolMaterial[0].color = Color.green;
+                farolMaterial[2].SetColor("_EmissionColor", Color.black);
+                farolMaterial[0].SetColor("_EmissionColor", Color.green);
             }
             else if (!isRed)
             {
                 isRed = true;
-                farolMaterial[0].color = Color.gray;
-                farolMaterial[1].color = Color.gray;
-                farolMaterial[2].color = Color.red;
+                farolMaterial[0].SetColor("_EmissionColor", Color.black);
+                farolMaterial[1].SetColor("_EmissionColor", Color.black);
+                farolMaterial[2].SetColor("_EmissionColor", Color.red);
             }
         }
         elapsedTime += Time.deltaTime;
@@ -54,9 +58,9 @@ public class Farol : MonoBehaviour
         if (other.gameObject.CompareTag("Player"))
         {
             if (isRed)
-                Debug.Log("Passou o farol vermelho, VSFD");
+                gameManager.DecreaseBattery(50);
             else if (!isRed)
-                Debug.Log("Farol Verde");
+                gameManager.IncreaseBattery(50);
                 
         }
     }

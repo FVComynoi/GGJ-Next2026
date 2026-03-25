@@ -4,7 +4,6 @@ using UnityEngine;
 public class BatteryManipulator : MonoBehaviour
 {
     [SerializeField] private GameManager gameManager;
-
     [SerializeField] private GameObject Self;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
