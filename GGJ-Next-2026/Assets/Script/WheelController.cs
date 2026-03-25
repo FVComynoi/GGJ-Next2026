@@ -1,4 +1,5 @@
 using System;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Rendering;
 
@@ -21,8 +22,16 @@ public class WheelController : MonoBehaviour
     private float horizontalInput;
     private float verticalInput;
     private float currentBrakeForce = 0f;
-    private float currentSteerAngle;
+    [SerializeField] private float currentSteerAngle;
     private bool isBraking;
+    private Rigidbody rb;
+    public Vector3 cOM;
+
+    private void Start()
+    {
+        rb=GetComponent<Rigidbody>();
+        rb.centerOfMass = cOM;
+    }
     private void Update()
     {
         GetInput();
@@ -55,6 +64,7 @@ public class WheelController : MonoBehaviour
         currentSteerAngle = maxSteerAngle * horizontalInput;
         frontLeftCollider.steerAngle=currentSteerAngle;
         frontRightCollider.steerAngle = currentSteerAngle;
+        
     }
     private void UpdateSingleWheel(WheelCollider wheelCollider, Transform wheelTransform)
     {
