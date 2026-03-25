@@ -243,6 +243,26 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &93049576 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1615550116733126609, guid: e104c40e73f904f4984401e4f22f4c3b, type: 3}
+  m_PrefabInstance: {fileID: 1505385204}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &93049581
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 93049576}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17030d1fc7131ac44b586abd5e55f7b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameManager: {fileID: 0}
+  atalhos: []
+  material: {fileID: 0}
 --- !u!1 &136498539
 GameObject:
   m_ObjectHideFlags: 0
@@ -493,7 +513,6 @@ GameObject:
   - component: {fileID: 1216832734}
   - component: {fileID: 1216832733}
   - component: {fileID: 1216832732}
-  - component: {fileID: 1216832736}
   m_Layer: 0
   m_Name: Atalho
   m_TagString: Atalho
@@ -590,21 +609,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
---- !u!114 &1216832736
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1216832731}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 17030d1fc7131ac44b586abd5e55f7b4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  gameManager: {fileID: 0}
-  boxCollider: {fileID: 0}
-  material: {fileID: 0}
 --- !u!1 &1217279819
 GameObject:
   m_ObjectHideFlags: 0
@@ -825,7 +829,7 @@ MonoBehaviour:
   IgnoreTimeScale: 0
   WorldUpOverride: {fileID: 0}
   ChannelMask: -1
-  UpdateMethod: 2
+  UpdateMethod: 0
   BlendUpdateMethod: 1
   LensModeOverride:
     Enabled: 0
@@ -1314,7 +1318,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1615550116733126609, guid: e104c40e73f904f4984401e4f22f4c3b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 93049581}
   m_SourcePrefab: {fileID: 100100000, guid: e104c40e73f904f4984401e4f22f4c3b, type: 3}
 --- !u!4 &1505385205 stripped
 Transform:
@@ -1352,7 +1359,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CounterText: {fileID: 136498541}
   batteryCounter: 100
-  hasBattery: 1
+  sirenActive: 0
 --- !u!4 &1764782698
 Transform:
   m_ObjectHideFlags: 0
