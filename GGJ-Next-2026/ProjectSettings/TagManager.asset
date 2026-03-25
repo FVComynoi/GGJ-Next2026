@@ -4,9 +4,10 @@
 TagManager:
   serializedVersion: 3
   tags:
-  - Increase
-  - Decrease
-  - Atalho
+  - LuzesFarol
+  - LevelEnd
+  - SirenTutorial
+  - TrafficTutorial
   layers:
   - Default
   - TransparentFX
