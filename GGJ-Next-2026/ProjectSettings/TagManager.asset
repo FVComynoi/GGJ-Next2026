@@ -6,6 +6,8 @@ TagManager:
   tags:
   - LuzesFarol
   - LevelEnd
+  - SirenTutorial
+  - TrafficTutorial
   layers:
   - Default
   - TransparentFX

@@ -5,6 +5,8 @@ public class LevelManager : MonoBehaviour
 {
     [SerializeField] GameObject gameEndScreen;
     [SerializeField] GameObject playButton;
+    [SerializeField] GameObject title;
+    [SerializeField] GameObject congrats;
     private void Awake()
     {
         Time.timeScale = 0f;
@@ -21,6 +23,7 @@ public class LevelManager : MonoBehaviour
     public void GameEnd()
     {
         gameEndScreen.SetActive(true);
+        congrats.SetActive(true);
         Time.timeScale = 0f;
     }
     public void OnPlay()
