@@ -375,6 +375,7 @@ MonoBehaviour:
   elapsedTime: 0
   swapDelay: 5
   isRed: 1
+  gameManager: {fileID: 0}
   farolMaterial:
   - {fileID: 2100000, guid: 090b0ad3ab12dfd488471bc19f6d0099, type: 2}
   - {fileID: 2100000, guid: 41bf7d9afbe8e3541952f3be996f7d89, type: 2}
@@ -398,8 +399,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 12.368639, y: 13.561211, z: 1.0811348}
-  m_Center: {x: 0.6560459, y: 0.77073765, z: -17.35594}
+  m_Size: {x: 10.58928, y: 13.561211, z: 0.33429718}
+  m_Center: {x: 1.2287269, y: 0.77073765, z: -17.207275}
 --- !u!1 &4462434249661498726
 GameObject:
   m_ObjectHideFlags: 0
@@ -506,8 +507,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1, y: 1, z: 0.47810745}
+  m_Center: {x: 0, y: 0, z: 0.13267708}
 --- !u!1 &4833811421501072809
 GameObject:
   m_ObjectHideFlags: 0

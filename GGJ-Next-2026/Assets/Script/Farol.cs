@@ -3,15 +3,19 @@ using UnityEngine;
 
 public class Farol : MonoBehaviour
 {
+    [Header("Headlight")]
     [SerializeField] private float elapsedTime =0;
     [SerializeField] private float swapDelay = 5;
     [SerializeField] private bool isRed = true;
+    
+    [Header("References")]
+    [SerializeField] private GameManager gameManager;
     [SerializeField] private Material[] farolMaterial;
 
 
     private void Awake()
     {
-        
+        gameManager = GameObject.Find("GameManager").GetComponent<GameManager>();
     }
 
     void Start()
@@ -54,9 +58,9 @@ public class Farol : MonoBehaviour
         if (other.gameObject.CompareTag("Player"))
         {
             if (isRed)
-                Debug.Log("Passou o farol vermelho, VSFD");
+                gameManager.DecreaseBattery(50);
             else if (!isRed)
-                Debug.Log("Farol Verde");
+                gameManager.IncreaseBattery(50);
                 
         }
     }

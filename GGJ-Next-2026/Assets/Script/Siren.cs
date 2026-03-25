@@ -3,9 +3,9 @@ using UnityEngine;
 
 public class Siren : MonoBehaviour
 {
-    [SerializeField] GameManager gameManager;
     [SerializeField] GameObject[] atalhos;
     [SerializeField] Material material;
+    [SerializeField] GameManager gameManager;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
