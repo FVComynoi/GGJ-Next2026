@@ -1,7 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="1a3eccd4-6bd3-42e9-a54c-481be399fdb6" name="Changes" comment="" />
+    <list default="true" id="7577b498-9423-4b05-b7a1-4c8b4cdaac69" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GGJ-Next-2026/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GGJ-Next-2026/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MaterialsFinal.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MaterialsFinal/Alpha.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MaterialsFinal/Alpha/Siren.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MaterialsFinal/Alpha/Siren.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MaterialsFinal/Alpha/Temp 1.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MaterialsFinal/Alpha/Temp 1.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MaterialsFinal/Alpha/Temp 2.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MaterialsFinal/Alpha/Temp 2.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MaterialsFinal/Alpha/Temp.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MaterialsFinal/Alpha/Temp.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MaterialsFinal/LuzLaranja.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MaterialsFinal/LuzLaranja.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MaterialsFinal/LuzVerde.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MaterialsFinal/LuzVerde.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MaterialsFinal/LuzVermelha.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MaterialsFinal/LuzVermelha.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MaterialsFinal/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MaterialsFinal/Textures/BatteryBar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MaterialsFinal/Textures/BatteryBar.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MaterialsFinal/Textures/BatteryBar2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MaterialsFinal/Textures/BatteryBar2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Final Objcts/Barricade.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Final Objcts/Barricade.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Final Objcts/FarolFinal.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Final Objcts/FarolFinal.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Final Objcts/Hidrante.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Final Objcts/Hidrante.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Siren.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Siren.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Stage.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Stage.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/Farol.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Farol.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/GameManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/LevelManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/LevelManager.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,29 +44,34 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
-  <component name="ProjectId" id="3BMPViafIav5Gr509skqZTiJaYH" />
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="3BP2uDQISDihXumWm0itvMqlhgM" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "git-widget-placeholder": "feature-farol",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;dev&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
-      <option name="EXE_PATH" value="C:\Program Files\Unity 6000.0.38f1\Editor\Unity.exe" />
-      <option name="PROGRAM_PARAMETERS" value="-projectPath C:\Users\24011853\Documents\GitHub\GGJ-Next2026\GGJ-Next-2026 -debugCodeOptimization" />
-      <option name="WORKING_DIRECTORY" value="C:\Users\24011853\Documents\GitHub\GGJ-Next2026\GGJ-Next-2026" />
+      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\6000.0.38f1\Editor\Unity.exe" />
+      <option name="PROGRAM_PARAMETERS" value="-projectPath C:\Users\25011930\Desktop\GGJ-Next2026\GGJ-Next-2026 -debugCodeOptimization" />
+      <option name="WORKING_DIRECTORY" value="C:\Users\25011930\Desktop\GGJ-Next2026\GGJ-Next-2026" />
       <option name="PASS_PARENT_ENVS" value="1" />
       <option name="ENV_FILE_PATHS" value="" />
       <option name="REDIRECT_INPUT_PATH" value="" />
@@ -40,9 +79,9 @@
       <method v="2" />
     </configuration>
     <configuration name="Unit Tests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
-      <option name="EXE_PATH" value="C:\Program Files\Unity 6000.0.38f1\Editor\Unity.exe" />
-      <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath C:\Users\24011853\Documents\GitHub\GGJ-Next2026\GGJ-Next-2026 -testResults Logs/results.xml -logFile Logs/Editor.log -testPlatform EditMode -debugCodeOptimization" />
-      <option name="WORKING_DIRECTORY" value="C:\Users\24011853\Documents\GitHub\GGJ-Next2026\GGJ-Next-2026" />
+      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\6000.0.38f1\Editor\Unity.exe" />
+      <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath C:\Users\25011930\Desktop\GGJ-Next2026\GGJ-Next-2026 -testResults Logs/results.xml -logFile Logs/Editor.log -testPlatform EditMode -debugCodeOptimization" />
+      <option name="WORKING_DIRECTORY" value="C:\Users\25011930\Desktop\GGJ-Next2026\GGJ-Next-2026" />
       <option name="PASS_PARENT_ENVS" value="1" />
       <option name="ENV_FILE_PATHS" value="" />
       <option name="REDIRECT_INPUT_PATH" value="" />
@@ -68,12 +107,26 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="1a3eccd4-6bd3-42e9-a54c-481be399fdb6" name="Changes" comment="" />
-      <created>1774295992110</created>
+      <changelist id="7577b498-9423-4b05-b7a1-4c8b4cdaac69" name="Changes" comment="" />
+      <created>1774376605674</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1774295992110</updated>
-      <workItem from="1774295993328" duration="1883000" />
+      <updated>1774376605674</updated>
+      <workItem from="1774376607608" duration="1926000" />
+      <workItem from="1774451780160" duration="9000" />
+      <workItem from="1774451814247" duration="10000" />
+      <workItem from="1774451827763" duration="229000" />
+      <workItem from="1774452233789" duration="4000" />
+      <workItem from="1774452240870" duration="6330000" />
+      <workItem from="1774480720279" duration="16000" />
+      <workItem from="1774480817710" duration="47000" />
+      <workItem from="1774480884753" duration="170000" />
+      <workItem from="1774481079370" duration="3000" />
+      <workItem from="1774481089845" duration="191000" />
+      <workItem from="1774484152900" duration="3000" />
+      <workItem from="1774484163392" duration="237000" />
+      <workItem from="1774486400386" duration="8000" />
+      <workItem from="1774486416379" duration="664000" />
     </task>
     <servers />
   </component>
