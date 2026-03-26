@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
+    
     [Header("Battery References")]
     [SerializeField] TextMeshProUGUI CounterText;
     [SerializeField] Image batteryImage;
@@ -21,7 +22,7 @@ public class GameManager : MonoBehaviour
 
     void Start()
     {
-        batteryCounter = 100f;
+        batteryCounter = 50f;
         sirenActive = false;
     }
 

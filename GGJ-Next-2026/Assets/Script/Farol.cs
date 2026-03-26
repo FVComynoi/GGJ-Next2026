@@ -57,7 +57,7 @@ public class Farol : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))
         {
-            if (isRed)
+            if (isRed && !gameManager.sirenActive)
                 gameManager.DecreaseBattery(50);
             else if (!isRed)
                 gameManager.IncreaseBattery(50);

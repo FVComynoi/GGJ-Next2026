@@ -5,8 +5,9 @@ public class LevelManager : MonoBehaviour
 {
     [SerializeField] GameObject gameEndScreen;
     [SerializeField] GameObject playButton;
-    [SerializeField] GameObject title;
-    [SerializeField] GameObject congrats;
+    
+    [SerializeField] private AudioSource music;
+
     private void Awake()
     {
         Time.timeScale = 0f;
@@ -23,13 +24,13 @@ public class LevelManager : MonoBehaviour
     public void GameEnd()
     {
         gameEndScreen.SetActive(true);
-        congrats.SetActive(true);
         Time.timeScale = 0f;
     }
     public void OnPlay()
     {
         playButton.SetActive(false);
         Time.timeScale = 1f;
+        music.Play();
     }        
     public void ReplayGame()
     {
